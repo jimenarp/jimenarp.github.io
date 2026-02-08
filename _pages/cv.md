@@ -11,54 +11,55 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D in Economics**, Cornell University, 2025–Present
+* **Visiting Student in Economics**, Yale University, 2024 (Host: Mushfiq Mobarak)
+* **Ph.D in Economics**, Stockholm University, 2021–2023 (Advisors: Johannes Haushofer, Anna Tompsett)
+* **Master in Public Administration and International Development (MPA/ID)**, Harvard Kennedy School, 2016–2018
+  * Awards: Fulbright, Joint Japan/World Bank (JJWB) Graduate Scholarship
+* **Bachelor in Economics**, Universidad del Pacífico, Lima, Peru, 2005–2010
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
+Working Papers
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Work Experience
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+* **Amazon — WIMSI**, NYC, USA
+  * Research Scientist (Oct 2025–Dec 2025): Research on Bayesian synthetic control methods, in collaboration with Alberto Abadie. Developed a Python package for Bayesian synthetic control.
+  * Science - Economist Intern (Jul 2025–Oct 2025): Research on causal inference methodologies for marketing effectiveness measurement.
+
+* **Inter-American Development Bank (IDB)**, Washington, DC, USA
+  * Research Fellow (Oct 2018–Jun 2021): Research on migration, climate, and conflict. Direct supervisor: Ana María Ibáñez.
+
+* **Busara Center**, Remote
+  * Consultant (Aug 2020–Jun 2021): Research on mental health and economic transfers.
+
+* **Ministry of Education**, Lima, Peru
+  * Strategic Planning Specialist / Investment Specialist (Feb 2015–Jul 2016)
+
+* **Apoyo Consultoría**, Lima, Peru
+  * Public Policy Consultant (Apr 2013–Feb 2015)
+
+* **OECD**, Paris, France
+  * Research Assistant (Sep 2013–Dec 2013)
+
+* **Rimac International**, Lima, Peru
+  * Investment Analyst (2010–2013)
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Seminars and Workshops
 ======
-* Currently signed in to 43 different slack teams
+Agricultural & Applied Economics Association (AAEA) Annual Meeting (2022), ASWEDE (2022, 2023), Oxford VI Workshop on Immigration, Health and Wellbeing (2022), 1st Stockholm University-MPI Workshop on Behavioral Economics (2022), Stockholm-NY Conference in Experimental Behavioral Economics (2023), International Economic Association (IEA) World Congress (2023), Yale Development Lunch (2025), Fourth Forced Displacement Working Group (FDWG) (2025), Third Junior Workshop on Economics of Migration (2025)
+
+Skills
+======
+* **Coding:** Stata, Python, R, GitHub
+* **Languages:** Spanish (native), English (fluent), Portuguese (fluent), French (intermediate)
+* **Software:** LaTeX, ArcGIS, Tableau
