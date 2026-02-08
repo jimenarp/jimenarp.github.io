@@ -1,9 +1,9 @@
 ---
-title: "Responses to Temperature Shocks: Labor Markets and Migration Decisions in El Salvador"
+title: "Responses to Extreme Temperatures: Migrant Networks and International Migration from El Salvador"
 collection: publications
 category: forthcoming
 permalink: /publication/temperature-shocks-el-salvador
 date: 2022-01-01
-paperurl: 'http://dx.doi.org/10.18235/0004237'
-citation: 'Ibañez, A., Romero, M., Quigua, J. & Velasquez, A. (2022). "Responses to Temperature Shocks: Labor Markets and Migration Decisions in El Salvador." Forthcoming, <i>American Economic Journal: Economic Policy</i>.'
+paperurl: 'https://www.aeaweb.org/articles?id=10.1257/pol.20230447&from=f'
+citation: 'Ibáñez, A.M., Quigua, J., Romero, M.J. & Velásquez, A. "Responses to Extreme Temperatures: Migrant Networks and International Migration from El Salvador." Forthcoming, <i>American Economic Journal: Economic Policy</i>.'
 ---
