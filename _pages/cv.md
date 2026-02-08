@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Download CV (PDF)](/files/romero_cv.pdf){: .btn .btn--primary}
+
 Education
 ======
 * **Ph.D in Economics**, Cornell University, 2025–Present
@@ -50,9 +52,11 @@ Work Experience
 
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* **Development Economics**, Teaching Assistant, Cornell University, 2026
+* **Information, Data and Decisions; Quantitative Methods**, Summer Instructor, Harvard Kennedy School, 2024, 2023, 2018
+* **Introduction to Quantitative Methods**, Teaching Assistant, Stockholm University, 2022–2023
+* **Math Camp; API 205 "Politics and Policies: What Can Data Tell Us?"**, Teaching Assistant, Harvard Kennedy School, 2017–2018
+* **Introduction to Microeconomics; Macroeconomics I**, Teaching Assistant, Universidad del Pacífico, 2010
 
 Seminars and Workshops
 ======
