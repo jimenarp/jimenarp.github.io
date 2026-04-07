@@ -13,7 +13,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D in Economics**, Cornell University, 2025–Present
+* **Ph.D in Economics**, Cornell University, Ithaca, NY, 2026–Present
   * Transferred from Stockholm University 2021–2024 (Advisors: Haushofer, Tompsett)
 * **Visiting Student in Economics**, Yale University, Sep 2024–May 2025 (Host: Mushfiq Mobarak)
 * **Master in Public Administration and International Development (MPA/ID)**, Harvard Kennedy School, 2016–2018
