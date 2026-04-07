@@ -14,8 +14,8 @@ redirect_from:
 Education
 ======
 * **Ph.D in Economics**, Cornell University, 2025–Present
-* **Visiting Student in Economics**, Yale University, 2024 (Host: Mushfiq Mobarak)
-* **Ph.D in Economics**, Stockholm University, 2021–2023 (Advisors: Johannes Haushofer, Anna Tompsett)
+  * Transferred from Stockholm University 2021–2024 (Advisors: Haushofer, Tompsett)
+* **Visiting Student in Economics**, Yale University, Sep 2024–May 2025 (Host: Mushfiq Mobarak)
 * **Master in Public Administration and International Development (MPA/ID)**, Harvard Kennedy School, 2016–2018
   * Awards: Fulbright, Joint Japan/World Bank (JJWB) Graduate Scholarship
 * **Bachelor in Economics**, Universidad del Pacífico, Lima, Peru, 2005–2010
