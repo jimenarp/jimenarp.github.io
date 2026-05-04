@@ -8,4 +8,4 @@ date: 2024-06-01
 location: "Cambridge, MA, USA"
 ---
 
-Summer Instructor (2024, 2023, 2018)
+Also taught in 2023 and 2018.

@@ -8,4 +8,4 @@ date: 2017-09-01
 location: "Cambridge, MA, USA"
 ---
 
-Teaching Assistant (2017–2018). Math Camp in calculus and statistics. Introductory statistics: API 205 "Politics and Policies: What Can Data Tell Us?", Fall 2017.
+Math Camp in calculus and statistics; introductory statistics for API 205 "Politics and Policies: What Can Data Tell Us?" (Fall 2017–2018).

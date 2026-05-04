@@ -8,4 +8,4 @@ date: 2022-01-01
 location: "Stockholm, Sweden"
 ---
 
-Teaching Assistant (2022–2023)
+Two academic years (2022 and 2023).
