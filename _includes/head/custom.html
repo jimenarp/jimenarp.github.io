@@ -12,75 +12,180 @@
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- Minimal styling overrides -->
+<!-- Editorial fonts: Newsreader (serif body) + Inter (UI/nav) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&display=swap" rel="stylesheet">
+
+<!-- Minimal styling overrides: Editorial / Cool minimal palette -->
 <style>
-  /* Smaller, cleaner nav tabs */
+  :root {
+    /* Cool minimal palette */
+    --global-bg-color: #fafafa;
+    --global-text-color: #171717;
+    --global-text-color-light: #737373;
+    --global-border-color: #e5e5e5;
+    --global-dark-border-color: #d4d4d4;
+    --global-base-color: #1e3a8a;
+    --global-link-color: #1e3a8a;
+    --global-link-color-hover: #1e40af;
+    --global-link-color-visited: #1e3a8a;
+    --global-masthead-link-color: #171717;
+    --global-masthead-link-color-hover: #1e3a8a;
+    --global-footer-bg-color: #f5f5f5;
+    --global-thead-color: #f5f5f5;
+  }
+
+  /* Body: serif for reading, Inter for UI */
+  body {
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 17px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Smaller, cleaner nav tabs in Inter */
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav,
+  .author__urls,
+  .archive__item-meta,
+  .page__meta,
+  .page__taxonomy,
+  .breadcrumbs,
+  .pagination,
+  .footer,
+  .page__footer {
+    font-family: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
   .masthead {
     font-size: 0.85rem;
   }
   .greedy-nav .visible-links a {
-    font-size: 0.82rem;
-    letter-spacing: 0.04em;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
     font-weight: 400;
+    text-transform: uppercase;
     padding: 0.6rem 0;
-    margin: 0 0.9rem;
+    margin: 0 0.95rem;
     transition: color 0.2s ease;
   }
   .masthead__menu-item--lg a {
-    font-size: 0.95rem;
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-family: "Newsreader", Georgia, serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
   }
   .greedy-nav .hidden-links a {
-    font-size: 0.82rem;
-    letter-spacing: 0.04em;
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   .greedy-nav .visible-links a:before {
     height: 2px;
+    background: var(--global-link-color);
   }
 
-  /* Refined body typography */
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Page content typography */
+  .page__content {
+    font-family: "Newsreader", Georgia, serif;
   }
   .page__content p,
   .page__content li {
-    line-height: 1.65;
+    line-height: 1.7;
+    font-size: 1.05rem;
   }
+  .page__title,
   .page__content h1,
   .page__content h2,
-  .page__content h3 {
-    letter-spacing: -0.005em;
+  .page__content h3,
+  .page__content h4 {
+    font-family: "Newsreader", Georgia, serif;
     font-weight: 600;
+    letter-spacing: -0.01em;
+    color: var(--global-text-color);
+  }
+  .page__title {
+    font-size: 2.1rem;
+    line-height: 1.15;
+    margin-bottom: 0.6em;
   }
   .page__content h2 {
     margin-top: 1.8em;
     padding-bottom: 0.3em;
     border-bottom: 1px solid var(--global-border-color);
+    font-size: 1.5rem;
+  }
+  .page__content h3 {
+    font-size: 1.2rem;
+    margin-top: 1.6em;
   }
 
-  /* Softer link styling */
+  /* Softer, navy-accented links inside content */
   .page__content a {
+    color: var(--global-link-color);
     text-decoration: none;
-    border-bottom: 1px solid var(--global-border-color);
+    border-bottom: 1px solid #d4d4d4;
     transition: border-color 0.2s ease, color 0.2s ease;
   }
   .page__content a:hover {
+    color: var(--global-link-color-hover);
     border-bottom-color: var(--global-link-color);
   }
 
-  /* Tighter author profile sidebar */
+  /* Author profile sidebar — Inter, tighter */
+  .author__name,
+  .author__bio,
+  .author__urls,
+  .author__urls li {
+    font-family: "Inter", -apple-system, sans-serif;
+  }
   .author__name {
     font-size: 1.1rem;
-    letter-spacing: 0.01em;
+    font-weight: 600;
+    letter-spacing: 0;
   }
   .author__bio {
     font-size: 0.88rem;
     line-height: 1.55;
+    color: var(--global-text-color-light);
   }
   .author__urls li {
     font-size: 0.82rem;
+  }
+  .author__urls a {
+    color: var(--global-text-color);
+  }
+  .author__urls a:hover {
+    color: var(--global-link-color);
+  }
+
+  /* Archive (publication, talks, etc.) listings */
+  .archive__item-title {
+    font-family: "Newsreader", Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+  }
+  .archive__item-excerpt {
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+  }
+  .archive__subtitle {
+    font-family: "Inter", -apple-system, sans-serif;
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+
+  /* Soften the masthead bottom border */
+  .masthead::after {
+    background: var(--global-border-color);
   }
 </style>
 
