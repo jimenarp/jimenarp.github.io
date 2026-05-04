@@ -12,6 +12,77 @@
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Minimal styling overrides -->
+<style>
+  /* Smaller, cleaner nav tabs */
+  .masthead {
+    font-size: 0.85rem;
+  }
+  .greedy-nav .visible-links a {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    padding: 0.6rem 0;
+    margin: 0 0.9rem;
+    transition: color 0.2s ease;
+  }
+  .masthead__menu-item--lg a {
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+  .greedy-nav .hidden-links a {
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+  }
+  .greedy-nav .visible-links a:before {
+    height: 2px;
+  }
+
+  /* Refined body typography */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .page__content p,
+  .page__content li {
+    line-height: 1.65;
+  }
+  .page__content h1,
+  .page__content h2,
+  .page__content h3 {
+    letter-spacing: -0.005em;
+    font-weight: 600;
+  }
+  .page__content h2 {
+    margin-top: 1.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  /* Softer link styling */
+  .page__content a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-border-color);
+    transition: border-color 0.2s ease, color 0.2s ease;
+  }
+  .page__content a:hover {
+    border-bottom-color: var(--global-link-color);
+  }
+
+  /* Tighter author profile sidebar */
+  .author__name {
+    font-size: 1.1rem;
+    letter-spacing: 0.01em;
+  }
+  .author__bio {
+    font-size: 0.88rem;
+    line-height: 1.55;
+  }
+  .author__urls li {
+    font-size: 0.82rem;
+  }
+</style>
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
