@@ -20,11 +20,15 @@ Education
   * Awards: Fulbright, Joint Japan/World Bank (JJWB) Graduate Scholarship
 * **Bachelor in Economics**, Universidad del Pacífico, Lima, Peru, 2005–2010
 
-Working Papers
+Research
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% for category in site.publication_category %}
+{% assign pubs = site.publications | where: "category", category[0] | reverse %}
+{% if pubs.size > 0 %}
+<h2>{{ category[1].title }}</h2>
+<ul>{% for post in pubs %}{% include archive-single-cv.html %}{% endfor %}</ul>
+{% endif %}
+{% endfor %}
 
 Work Experience
 ======
