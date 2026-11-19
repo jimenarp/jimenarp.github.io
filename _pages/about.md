@@ -4,6 +4,7 @@ title: "About"
 author_profile: true
 header:
   image: "banner.jpg"
+  caption: "Sacred Valley, Cuzco, 2017"
 redirect_from:
   - /about/
   - /about.html
